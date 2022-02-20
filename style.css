@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,200;0,300;0,400;0,600;1,200;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-primary: "Ubuntu", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Muli", serif;
+  }
+
+body{
+    color: white;
+    background-image: url("/img/river.jpg");
+    background-position: center center;
+    font-family: var(--font-primary);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -25rem;
+}
+
+.container{
+
+    background-color: rgba(20, 177, 177, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.contador {
+    text-align: center;
+    
+}
+
+.contador span{
+    font-size: 1.5rem;
+}
