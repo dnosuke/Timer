@@ -1,7 +1,7 @@
 # Timer
 Este Timer mostra a quantidade de dias ate o fim da minha graduação
 
-[title](https://timer-graduacao.netlify.app/)
+- Acesse aqui: [Página Timer](https://timer-graduacao.netlify.app/)
 
 ![alt text](/img/Fim_da_Grad.png)
 
